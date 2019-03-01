@@ -1,8 +1,9 @@
-n1=int(input("ingrese valor n1"))
-if n1==0:
-	print("el numero es 0")
-else:
-        if n1%2==0:
-                print("su numero es par")
+pares=0
+for x in range(0,99999999999999999999999999999999999999999999):
+        x=int(input("digite un numero"))
+
+        if x % 2 ==0:
+                pares = pares + 1
         else:
-                print("su numero no es par")
+                break
+print("el programa se detuvo por el ingreso de un numero impar; u la cantidd de numeros pares fue:", pares)
